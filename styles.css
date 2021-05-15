@@ -854,14 +854,6 @@ body {
 		display: none;
 	}
 
-	.download-app-section img {
-		display: none;
-	}
-
-	.download-app-section {
-		background-image: linear-gradient(180deg ,transparent,rgba(0, 0, 0, 0.856)), url("https://assets.youdo.com/next/_next/static/images/download_hand-13ced686918d5e0b8a92914b8cc87aaf.png");
-	}
-
 	.popular-services-grid {
 		display: block;
 	}
@@ -901,12 +893,97 @@ body {
 		width: 100%;
 	}
 
+	.search-area input {
+		font-size: 15px;
+	}
+
 	.search-area form span {
 		display: none;
 	}
+
 	.popular-service {
 		padding-bottom: 20px !important;
 		border-bottom: 1px solid grey;
 	}
+
+	.create-order-item > img {
+		width: 70%;
+		height: auto;
+		margin: auto;
+		
+	}
+
+	.create-order-item.image-item {
+		text-align: center;
+	}
+
+	.section-title-big {
+		font-size: 28px;
+	}
+
+	.create-order-item {
+		margin: auto 10px auto 10px;
+	}
+
+	.create-order-item h4 {
+		font-size: 20px;
+	}
+
+	.create-order-now-button a {
+		padding: 10px 10px 10px 10px;
+		font-size: 15px;
+	}
+
+	/* download-app-section */
+
+	.download-app-section {
+		top: 0px;
+	}	
+
+	.download-app-section img {
+		display: none;
+	}
+
+	.download-app-section {
+		background-image: linear-gradient(0deg ,transparent,rgba(0, 0, 0, 0.904)), url("https://assets.youdo.com/next/_next/static/images/download_hand-13ced686918d5e0b8a92914b8cc87aaf.png");
+	}
+
+	.download-app-section .text-content {
+		color: white;
+	}
+
+	/* blog */
+
+	.blog-section h2 {
+		font-size: 28px;
+		top: 0px;
+	}
+
+	/* footer */
+
+	.footer-menu-flex {
+		display: block;
+		padding: 0px 10px 0px 10px;
+		margin: auto;
+		
+	}
+
+	.footer-menu-flex .sk {
+		width: 70px;
+		min-height: 50px;
+		text-align: center;
+		margin: auto;
+	}
+
+	.footer-menu-items {
+		display: block;
+	}
+
+	/* upsides */
+
+	.upsides-section {
+		padding: 5px 10px 10px 10px;
+	}
+
 }
 
